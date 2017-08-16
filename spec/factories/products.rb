@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :product do
-    title { Fake::Name.name }
+    title { Faker::Name.name }
     description "MyText"
     price "9.99"
   end
